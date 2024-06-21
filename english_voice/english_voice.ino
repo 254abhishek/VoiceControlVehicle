@@ -54,7 +54,7 @@ void loop() {
     {
        char c = Serial.read(); 
       datain +=c;
-      delay(10);
+      delay(100);
       }
       Serial.println(datain);
       if(datain=="*forward#")
