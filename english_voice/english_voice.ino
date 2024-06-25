@@ -46,7 +46,7 @@ void loop() {
         digitalWrite(relay4,LOW);
   }
   
-  delay(200);
+  delay(100);
   
   if(Serial.available())
   {
